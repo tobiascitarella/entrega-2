@@ -10,11 +10,10 @@ html {
   font-family: $font;
 }
 
-
-@import "headerfooter.scss";
 @import "textos.scss";
 @import "imagenes.scss";
 @import "titulos.scss";
+@import "headerfooter.scss";
 @import "medias.scss";
 
 
