@@ -1,16 +1,11 @@
 //imagenes
 .img img{
-    width: 500px;
-    padding-top: 5px;
-    padding-left: 5px; 
-    padding-bottom: 5px;
+    @include imagenes (500px,5px,5px,5px)
 }
 .yt img{
     width: 100px;
 }
 .zelda img{
-    width: 300px;
-    padding-top: 5px;
-    padding-left: 5px; 
-    padding-bottom: 5px;
+    @include imagenes (300px,5px,5px,5px)
 }
+

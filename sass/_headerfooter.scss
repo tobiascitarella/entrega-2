@@ -1,6 +1,6 @@
 //header
 header{
-    background-color: $azul;
+    background-color: $color1;
     margin-bottom: 0;
     position: sticky;
     top:0;
@@ -11,14 +11,13 @@ header{
         border-radius: 50%;
     }
     .navbar{
-        background-color: $azul;
+        background-color: $color1;
         .navbar-brand{
             color: white;
             font-weight: bold;
         }
           .nav-link{
-            color: white;
-            font-weight: bold;
+            @extend .navbar-brand
         }
           .nav-link:hover{
             color: black;
@@ -27,7 +26,7 @@ header{
 }
 //footer
 footer {
-    background-color: $azul;
+    background-color: $color1;
     footer p {
         color: white;
         text-align: center;
@@ -35,6 +34,6 @@ footer {
     footer img {
         width: 100px;
         border-radius: 50%;
-        background-color: $azul;
+        background-color: $color1;
     }
 }

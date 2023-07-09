@@ -1,31 +1,10 @@
 //titulos
 h1{
-    text-align: center;
-    background-color: $celeste;
-    color: $blanco;
+    @include titulos(center,$color4,$color3)
 }
 h2{
-    text-align: center;
-    background-color: #9BA4B5;
-    color: $blanco;
+    @include titulos(center,$color2,$color3)
 }
 h3{
-    text-align: center;
-    background-color: #9099aa;
-    color: $blanco;
-}
-h1{
-    text-align: center;
-    background-color: $celeste;
-    color: $blanco;
-}
-h2{
-    text-align: center;
-    background-color: #9BA4B5;
-    color: $blanco;
-}
-h3{
-    text-align: center;
-    background-color: #9099aa;
-    color:$blanco;
+    @include titulos(center,$color6,$color3)
 }

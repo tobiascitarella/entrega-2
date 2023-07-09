@@ -1,6 +1,18 @@
-$azul:#212a3e;
-$gris:#9BA4B5;
-$blanco:#F1F6F9;
-$celeste: #394867;
-$verde: #526D82;
+$color1:#212a3e;
+$color2:#9BA4B5;
+$color3:#F1F6F9;
+$color4: #394867;
+$color5: #526D82;
+$color6:#9099aa;
 $font:"Lato", sans-serif;
+@mixin imagenes($tamanio,$padding-top,$padding-left,$padding-bottom){
+    width: $tamanio;
+    padding-top: $padding-top;
+    padding-left: $padding-left;
+    padding-bottom: $padding-bottom;
+}
+@mixin titulos($align,$fondo,$color){
+    text-align: $align;
+    background-color: $fondo;
+    color: $color;
+}
